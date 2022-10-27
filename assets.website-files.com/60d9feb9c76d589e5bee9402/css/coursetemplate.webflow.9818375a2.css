@@ -14,6 +14,15 @@
    ========================================================================== */
 
 /* Custom CSS by Melek */
+#web3-animation {
+  margin-left: auto;
+  margin-right: auto;
+  width: 179px;
+ }
+ 
+:root {
+  --txt-bold-color: #36454F;
+}
 
 .header-logo {
   height: 80px !important;
@@ -31,6 +40,9 @@
 }
 .about-the-teacher-buttons {
   display: none !important;
+}
+.coming-soon-card {
+  opacity: 0.2;
 }
 /* END Custom CSS by Melek */
 
@@ -5030,7 +5042,6 @@ figcaption {
 
 .image.home-course-steps {
   height: 100%;
-  min-height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -10020,11 +10031,11 @@ figcaption {
     -ms-flex-item-align: start;
     align-self: flex-start;
   }
-
+/*
   .footer-logo {
     width: auto;
   }
-
+*/
   .section {
     padding-top: 100px;
     padding-bottom: 100px;
