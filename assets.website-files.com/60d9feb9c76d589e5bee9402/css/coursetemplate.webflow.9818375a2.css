@@ -26,8 +26,12 @@
   width: 264px;
   height: 70px;
  }
- 
-
+.course-step-description {
+  display: none !important;
+}
+.about-the-teacher-buttons {
+  display: none !important;
+}
 /* END Custom CSS by Melek */
 
 .w-layout-grid {
@@ -5381,7 +5385,7 @@ figcaption {
 
 .home-hero-about-teacher-rol {
   color: #2A418C;
-  line-height: 1.111em;
+  line-height: 1.8em;
 }
 
 .companies-home-hero-wrapper {
