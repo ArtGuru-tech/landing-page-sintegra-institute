@@ -12,6 +12,24 @@
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+
+/* Custom CSS by Melek */
+
+.header-logo {
+  height: 80px !important;
+}
+#rfi-img {
+  width: 106px;
+  height: 106px;
+}
+#france3-img {
+  width: 264px;
+  height: 70px;
+ }
+ 
+
+/* END Custom CSS by Melek */
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -2796,7 +2814,7 @@ p {
 a {
   -webkit-transition: color 300ms ease;
   transition: color 300ms ease;
-  color: #079561;
+  color: #2A418C;
   text-decoration: underline;
 }
 
@@ -2841,7 +2859,7 @@ blockquote {
   border-color: #eaeaea;
   background-color: #fff;
   box-shadow: 0 20px 48px 0 rgba(27, 27, 27, 0.06);
-  color: #079561;
+  color: #2A418C;
   font-size: 27px;
   line-height: 1.63em;
   text-align: center;
@@ -2892,7 +2910,7 @@ figcaption {
 }
 
 .bg-primary-1 {
-  background-color: #079561;
+  background-color: #2A418C;
 }
 
 .bg-neutral-700 {
@@ -2975,7 +2993,7 @@ figcaption {
 
 .style-guide-header {
   padding: 100px 68px;
-  background-color: #079561;
+  background-color: #2A418C;
 }
 
 .sidebar-navigation {
@@ -3001,7 +3019,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 10000000px;
-  background-color: #079561;
+  background-color: #2A418C;
   -webkit-transition: background-color 250ms ease;
   transition: background-color 250ms ease;
 }
@@ -3026,14 +3044,14 @@ figcaption {
 
 .style-guide-link:hover {
   background-color: #f8f8f8;
-  color: #079561;
+  color: #2A418C;
 }
 
 .style-guide-link.w--current {
   background-color: #f8f8f8;
   -webkit-transition: color 300ms ease, background-color 300ms ease;
   transition: color 300ms ease, background-color 300ms ease;
-  color: #079561;
+  color: #2A418C;
   font-weight: 700;
 }
 
@@ -3132,7 +3150,7 @@ figcaption {
 
 .typography-details {
   margin-top: 15px;
-  color: #079561;
+  color: #2A418C;
   font-weight: 500;
 }
 
@@ -3170,7 +3188,7 @@ figcaption {
 .button-primary {
   padding: 24px 48px;
   border-radius: 1000px;
-  background-color: #079561;
+  background-color: #2A418C;
   box-shadow: 0 12px 35px 0 rgba(7, 149, 97, 0.21);
   -webkit-transition: box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
   transition: box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
@@ -3183,7 +3201,7 @@ figcaption {
 }
 
 .button-primary:hover {
-  background-color: #068355;
+  background-color: #2A418C;
   box-shadow: 0 3px 5px 0 rgba(7, 149, 97, 0.21);
   -webkit-transform: scale(0.97);
   -ms-transform: scale(0.97);
@@ -3216,7 +3234,7 @@ figcaption {
 
 .button-primary.button-white {
   background-color: #fff;
-  color: #079561;
+  color: #2A418C;
 }
 
 .button-primary.checkout {
@@ -3259,7 +3277,7 @@ figcaption {
 }
 
 .button-secondary:hover {
-  background-color: #079561;
+  background-color: #2A418C;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02), 0 1px 4px 0 rgba(25, 25, 25, 0.06);
   -webkit-transform: scale(0.97);
   -ms-transform: scale(0.97);
@@ -3316,15 +3334,15 @@ figcaption {
 }
 
 .button-secondary.category:hover {
-  border-color: #079561;
-  background-color: #079561;
+  border-color: #2A418C;
+  background-color: #2A418C;
   box-shadow: none;
   color: #fff;
 }
 
 .button-secondary.category.w--current {
-  border-color: #079561;
-  background-color: #079561;
+  border-color: #2A418C;
+  background-color: #2A418C;
   color: #fff;
   font-weight: 700;
 }
@@ -3399,7 +3417,7 @@ figcaption {
 }
 
 .nav-link:hover {
-  color: #079561;
+  color: #2A418C;
 }
 
 .nav-link.dropdown {
@@ -3673,20 +3691,20 @@ figcaption {
 }
 
 .input:hover {
-  border-color: #079561;
+  border-color: #2A418C;
   background-color: #fff;
   box-shadow: 0 4px 20px 0 rgba(27, 27, 27, 0.05);
 }
 
 .input:focus {
-  border-color: #079561;
+  border-color: #2A418C;
   background-color: #fff;
   box-shadow: 0 4px 20px 0 rgba(27, 27, 27, 0.05);
   color: #1a1e1c;
 }
 
 .input.-wfp-focus {
-  border-color: #079561;
+  border-color: #2A418C;
   background-color: #fff;
   box-shadow: 0 4px 20px 0 rgba(27, 27, 27, 0.05);
   color: #1a1e1c;
@@ -3758,7 +3776,7 @@ figcaption {
 
 ._404-title {
   margin-bottom: 30px;
-  color: #079561;
+  color: #2A418C;
   font-size: 180px;
   line-height: 1em;
   font-weight: 700;
@@ -3823,7 +3841,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 1000px;
-  background-color: #079561;
+  background-color: #2A418C;
 }
 
 .paragraph.password {
@@ -4349,7 +4367,7 @@ figcaption {
 }
 
 .title.order-item-title:hover {
-  color: #079561;
+  color: #2A418C;
 }
 
 .title.card-home-about-name {
@@ -4418,7 +4436,7 @@ figcaption {
 
 .title.footer-menu-title {
   margin-bottom: 48px;
-  color: #079561;
+  color: #2A418C;
   font-size: 14px;
   line-height: 2em;
   font-weight: 700;
@@ -4428,7 +4446,7 @@ figcaption {
 
 .title.dropdown-nav-title {
   margin-bottom: 48px;
-  color: #079561;
+  color: #2A418C;
   font-size: 14px;
   line-height: 2em;
   font-weight: 700;
@@ -4665,7 +4683,7 @@ figcaption {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -4801,7 +4819,7 @@ figcaption {
 }
 
 .checkout-required-text {
-  color: #079561;
+  color: #2A418C;
 }
 
 .checkout-billing-address-toggle {
@@ -5168,7 +5186,7 @@ figcaption {
   min-height: 80px;
   min-width: 80px;
   border-radius: 1000000000px;
-  background-color: #079561;
+  background-color: #2A418C;
   -o-object-fit: scale-down;
   object-fit: scale-down;
 }
@@ -5274,7 +5292,7 @@ figcaption {
 }
 
 .cart-button:hover {
-  color: #079561;
+  color: #2A418C;
 }
 
 .cart-quantity {
@@ -5283,7 +5301,7 @@ figcaption {
   margin-left: 0px;
   padding-right: 0px;
   padding-left: 0px;
-  color: #079561;
+  color: #2A418C;
   font-size: 16px;
   line-height: 1.125em;
   font-weight: 400;
@@ -5362,7 +5380,7 @@ figcaption {
 }
 
 .home-hero-about-teacher-rol {
-  color: #079561;
+  color: #2A418C;
   line-height: 1.111em;
 }
 
@@ -5441,7 +5459,7 @@ figcaption {
 
 .card-home-about-rol {
   margin-bottom: 24px;
-  color: #079561;
+  color: #2A418C;
   line-height: 1.111em;
 }
 
@@ -5495,7 +5513,7 @@ figcaption {
 }
 
 .social-media-link:hover {
-  color: #079561;
+  color: #2A418C;
 }
 
 .social-media-link.icon-size-20px {
@@ -5644,7 +5662,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100000px;
-  background-color: #079561;
+  background-color: #2A418C;
   box-shadow: 0 6px 16px 0 rgba(7, 149, 97, 0.21);
   color: #fff;
   font-size: 20px;
@@ -5809,7 +5827,7 @@ figcaption {
 }
 
 .card-testimonial-rol {
-  color: #079561;
+  color: #2A418C;
   line-height: 1.333em;
 }
 
@@ -6355,7 +6373,7 @@ figcaption {
   -webkit-transform: translate(4px, 0px);
   -ms-transform: translate(4px, 0px);
   transform: translate(4px, 0px);
-  color: #079561;
+  color: #2A418C;
 }
 
 .footer-nav-link.link-badge {
@@ -6372,12 +6390,12 @@ figcaption {
 
 .footer-nav-link.special {
   padding-bottom: 6px;
-  border-bottom: 3px solid #079561;
+  border-bottom: 3px solid #2A418C;
   -webkit-transition: border-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
   transition: border-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
   transition: border-color 300ms ease, transform 300ms ease, color 300ms ease;
   transition: border-color 300ms ease, transform 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
-  color: #079561;
+  color: #2A418C;
   font-weight: 700;
 }
 
@@ -6389,7 +6407,7 @@ figcaption {
 .link-badge-text {
   margin-left: 10px;
   padding: 8px 14px;
-  background-color: #079561;
+  background-color: #2A418C;
   color: #fff;
   font-size: 12px;
   line-height: 1.167em;
@@ -6424,7 +6442,7 @@ figcaption {
 }
 
 .footer-social-media-link:hover {
-  color: #079561;
+  color: #2A418C;
 }
 
 .footer-social-media-link.icon-size-22px {
@@ -6474,7 +6492,7 @@ figcaption {
 }
 
 .accent-color-primary-1 {
-  color: #079561;
+  color: #2A418C;
 }
 
 .nav-link-dropdown {
@@ -6498,7 +6516,7 @@ figcaption {
   -webkit-transform: translate(4px, 0px);
   -ms-transform: translate(4px, 0px);
   transform: translate(4px, 0px);
-  color: #079561;
+  color: #2A418C;
 }
 
 .dropdown-nav-link.link-badge {
@@ -6515,12 +6533,12 @@ figcaption {
 .dropdown-nav-link.special {
   max-height: none;
   padding-bottom: 6px;
-  border-bottom: 3px solid #079561;
+  border-bottom: 3px solid #2A418C;
   -webkit-transition: border-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
   transition: border-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
   transition: border-color 300ms ease, transform 300ms ease, color 300ms ease;
   transition: border-color 300ms ease, transform 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
-  color: #079561;
+  color: #2A418C;
   font-weight: 700;
 }
 
@@ -6601,7 +6619,7 @@ figcaption {
   margin-bottom: 20px;
   padding-right: 10px;
   padding-left: 10px;
-  background-color: #079561;
+  background-color: #2A418C;
   box-shadow: 0 12px 35px 0 rgba(7, 149, 97, 0.21);
   color: #fff;
   font-weight: 700;
@@ -6776,8 +6794,8 @@ figcaption {
 }
 
 .experience-left-arrow:hover {
-  border-color: #079561;
-  background-color: #079561;
+  border-color: #2A418C;
+  background-color: #2A418C;
   box-shadow: 0 2px 4px 0 rgba(27, 27, 27, 0.06);
   -webkit-transform: scale(0.97);
   -ms-transform: scale(0.97);
@@ -6834,7 +6852,7 @@ figcaption {
 }
 
 .card-experience-rol {
-  color: #079561;
+  color: #2A418C;
   line-height: 1.333em;
 }
 
@@ -6860,7 +6878,7 @@ figcaption {
   min-width: 8px;
   margin-right: 9px;
   border-radius: 10000px;
-  background-color: #079561;
+  background-color: #2A418C;
 }
 
 .card-experience-date {
@@ -6925,7 +6943,7 @@ figcaption {
 }
 
 .card-about-testimonial-rol {
-  color: #079561;
+  color: #2A418C;
   line-height: 1.111em;
 }
 
@@ -6958,8 +6976,8 @@ figcaption {
 }
 
 .experience-right-arrow:hover {
-  border-color: #079561;
-  background-color: #079561;
+  border-color: #2A418C;
+  background-color: #2A418C;
   box-shadow: 0 2px 4px 0 rgba(27, 27, 27, 0.06);
   -webkit-transform: scale(0.97);
   -ms-transform: scale(0.97);
@@ -7011,7 +7029,7 @@ figcaption {
 
 .card-course-featured-price {
   margin-bottom: 2px;
-  color: #079561;
+  color: #2A418C;
   line-height: 1.556em;
   font-weight: 700;
 }
@@ -7044,7 +7062,7 @@ figcaption {
 .link-underline {
   overflow: hidden;
   margin-top: auto;
-  color: #079561;
+  color: #2A418C;
   line-height: 1.111em;
   font-weight: 700;
   text-align: center;
@@ -7062,7 +7080,7 @@ figcaption {
   width: 100%;
   min-height: 2px;
   margin-top: 4px;
-  background-color: #079561;
+  background-color: #2A418C;
 }
 
 .underline.height-1px {
@@ -7131,7 +7149,7 @@ figcaption {
 
 .card-course-price {
   margin-bottom: 10px;
-  color: #079561;
+  color: #2A418C;
   line-height: 1.556em;
   font-weight: 700;
 }
@@ -7274,14 +7292,14 @@ figcaption {
 }
 
 .course-tab-link:hover {
-  color: #079561;
+  color: #2A418C;
 }
 
 .course-tab-link.w--current {
   border-bottom-width: 3px;
-  border-bottom-color: #079561;
+  border-bottom-color: #2A418C;
   background-color: transparent;
-  color: #079561;
+  color: #2A418C;
   font-weight: 700;
 }
 
@@ -7392,13 +7410,13 @@ figcaption {
 }
 
 .select-wrapper:hover {
-  border-color: #079561;
+  border-color: #2A418C;
   background-color: #fff;
   box-shadow: 0 4px 20px 0 rgba(27, 27, 27, 0.05);
 }
 
 .select-wrapper:focus {
-  border-color: #079561;
+  border-color: #2A418C;
   background-color: #fff;
   box-shadow: 0 4px 20px 0 rgba(27, 27, 27, 0.05);
 }
@@ -7546,14 +7564,14 @@ figcaption {
 }
 
 .course-videos-tab-link:hover {
-  color: #079561;
+  color: #2A418C;
 }
 
 .course-videos-tab-link.w--current {
   border-bottom-width: 3px;
-  border-bottom-color: #079561;
+  border-bottom-color: #2A418C;
   background-color: transparent;
-  color: #079561;
+  color: #2A418C;
   font-weight: 700;
 }
 
@@ -7622,7 +7640,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 10000000px;
-  background-color: #079561;
+  background-color: #2A418C;
 }
 
 .card-course-video-content {
@@ -7676,7 +7694,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 1000000px;
-  background-color: #079561;
+  background-color: #2A418C;
 }
 
 .card-course-videos-resource-content {
@@ -7715,7 +7733,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 1000000px;
-  background-color: #079561;
+  background-color: #2A418C;
 }
 
 .card-course-videos-community-grid {
@@ -7985,7 +8003,7 @@ figcaption {
 }
 
 .post-author-rol {
-  color: #079561;
+  color: #2A418C;
   line-height: 1.111em;
 }
 
@@ -8023,7 +8041,7 @@ figcaption {
 }
 
 .card-author-rol {
-  color: #079561;
+  color: #2A418C;
   line-height: 1.111em;
 }
 
@@ -8124,7 +8142,7 @@ figcaption {
 }
 
 .contact-link:hover {
-  color: #079561;
+  color: #2A418C;
 }
 
 .contact-link-icon {
@@ -8147,7 +8165,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100000px;
-  background-color: #079561;
+  background-color: #2A418C;
   font-family: 'Icons Course X Template', sans-serif;
   color: #fff;
   font-size: 17px;
@@ -8195,13 +8213,13 @@ figcaption {
 }
 
 .text-area:hover {
-  border-color: #079561;
+  border-color: #2A418C;
   background-color: #fff;
   box-shadow: 0 4px 20px 0 rgba(27, 27, 27, 0.05);
 }
 
 .text-area:focus {
-  border-color: #079561;
+  border-color: #2A418C;
   background-color: #fff;
   box-shadow: 0 4px 20px 0 rgba(27, 27, 27, 0.05);
   color: #1a1e1c;
@@ -8244,7 +8262,7 @@ figcaption {
 
 .card-direct-contact-link-text {
   margin-bottom: 16px;
-  color: #079561;
+  color: #2A418C;
 }
 
 .bg {
@@ -8656,7 +8674,7 @@ figcaption {
     min-width: 54px;
     padding: 12px;
     border-radius: 100000px;
-    background-color: #079561;
+    background-color: #2A418C;
     box-shadow: 0 12px 35px 0 rgba(7, 149, 97, 0.21);
     -webkit-transition: box-shadow 300ms ease, background-color 350ms ease, -webkit-transform 300ms ease;
     transition: box-shadow 300ms ease, background-color 350ms ease, -webkit-transform 300ms ease;
@@ -8667,7 +8685,7 @@ figcaption {
   }
 
   .menu-button:hover {
-    background-color: #068355;
+    background-color: #2A418C;
     box-shadow: 0 3px 5px 0 rgba(7, 149, 97, 0.21);
     -webkit-transform: scale(0.97);
     -ms-transform: scale(0.97);
@@ -8675,7 +8693,7 @@ figcaption {
   }
 
   .menu-button.w--open {
-    background-color: #068355;
+    background-color: #2A418C;
   }
 
   .nav-menu {
