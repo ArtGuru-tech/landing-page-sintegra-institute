@@ -14,6 +14,17 @@
    ========================================================================== */
 
 /* Custom CSS by Melek */
+
+div.flex-vc:nth-child(3) > div:nth-child(1) > a:nth-child(2) {
+  display: none;
+  }
+
+@media screen and (max-width: 479px) {
+  .menu-button {
+  display: none !important;
+  }
+  }
+
 .blurry-text {
   color: transparent;
    text-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -30,7 +41,7 @@
 }
 
 .header-logo {
-  height: 80px !important;
+  height: 120px !important;
 }
 #rfi-img {
   width: 106px;
@@ -3210,7 +3221,7 @@ figcaption {
   padding: 24px 48px;
   border-radius: 1000px;
   background-color: #2A418C;
-  box-shadow: 0 12px 35px 0 rgba(7, 149, 97, 0.21);
+  box-shadow: 0 5px 35px 0 rgba(42, 65, 140, 0.21);
   -webkit-transition: box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
   transition: box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
   transition: transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease;
@@ -4095,7 +4106,7 @@ figcaption {
   position: relative;
   z-index: 2;
   max-width: 80%;
-  margin-top: -238px;
+  margin-top: -134px;
   padding: 40px 48px 57px;
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
@@ -5961,6 +5972,7 @@ figcaption {
 
 .shape {
   position: absolute;
+  opacity: 0.15 !important;
 }
 
 .shape.home-hero-1 {
